@@ -38,7 +38,7 @@ This week we were given starter code. This included a functioning Express.js API
 
 Programs used to handle queries / manage database
 ```
-MySQL Workbench, MAMP, Node.js
+MySQL Workbench, MAMP, Node.js, Insomnia
 ```
 npm package dependencies
 ```
@@ -47,15 +47,13 @@ mysql2 - connects to SQL database through JavsScript
 express - web application framework for Node.js
 sequelize - Object-Relational Mapping (ORM) library for Node.js
 ```
-Before running the script, install any dependencies with 
-``` npm install ```.
+Before running the script, install any dependencies with ``` npm install ```.
 
-Execute the queries found in```Develop/db/schema.sql``` in MySQL Shell.
+Execute the queries found in ```Develop/db/schema.sql``` in MySQL Shell.
 
 Run ```npm run seed``` to populate database with the already provided information.
 
-To start the server, use the command
-```npm start```.
+To start the server, use the command ```npm start```.
 
 
 ## Demonstration
