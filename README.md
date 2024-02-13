@@ -49,7 +49,7 @@ sequelize - Object-Relational Mapping (ORM) library for Node.js
 ```
 Before running the script, install any dependencies with ``` npm install ```.
 
-Execute the queries found in ```Develop/db/schema.sql``` in MySQL Shell.
+Execute the queries found in ```Develop/db/schema.sql``` in MySQL Shell to initialize the ecommerce_db.
 
 Run ```npm run seed``` to populate database with the already provided information.
 
