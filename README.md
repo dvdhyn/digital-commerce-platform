@@ -47,20 +47,20 @@ mysql2 - connects to SQL database through JavsScript
 express - web application framework for Node.js
 sequelize - Object-Relational Mapping (ORM) library for Node.js
 ```
-Before running the script, install any dependencies with ``` npm install ```.
+Before running the script, install any dependencies with `npm install`.
 
-Create a ```.env``` file inside the Develop root folder that contains this structure with your SQL credentials
+Create a `.env` file inside the Develop root folder that contains this structure with your SQL credentials
 ```
 DB_NAME='your_db' ('ecommerce_db' in this case)
 DB_USER='your_username'
 DB_PW='your_password'
 ```
 
-Execute the queries found in ```Develop/db/schema.sql``` in MySQL Shell to initialize the ecommerce_db.
+Execute the queries found in `Develop/db/schema.sql` in MySQL Shell to initialize the `ecommerce_db`.
 
-Run ```npm run seed``` to populate database with the already provided information.
+Run `npm run seed` to populate database with the already provided information.
 
-To start the server, use the command ```npm start```.
+To start the server, use the command `npm start`.
 
 
 ## Demonstration
